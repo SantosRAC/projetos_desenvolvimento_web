@@ -2,7 +2,7 @@
 
 O desenvolvimento da plataforma do CoNekT Grasses seguirá esse fluxo:
 
-![CoNekT Grasses UML](https://github.com/SantosRAC/projetos_desenvolvimento_web/blob/main/CoNekT%20Grasses/UML/Diagrama%20UML%20-%20CoNekT%20Grasses.jpg)
+![CoNekT Grasses UML](https://github.com/SantosRAC/projetos_desenvolvimento_web/blob/fe47a8054bc5b365bc1678dc880fad24afdaae8d/CoNekT%20Grasses/UML/Diagrama%20UML%20-%20CoNekT%20Grasses.jpg)
 
 ---
 
