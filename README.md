@@ -13,7 +13,7 @@ O desenvolvimento da plataforma do CoNekT Grasses seguirá esse fluxo:
 - **Revisões obrigatórias:** Pelo menos **uma revisão de outro desenvolvedor** antes do merge.
 - **Conferência manual de testes:** O autor deve rodar todos os testes localmente e garantir que estão passando.
 - **Análise de qualidade de código:**
-  - Clareza, legibilidade e aderência às boas práticas (Clean Code, SOLID).
+  - Clareza, legibilidade e aderência às boas práticas (Clean Code, [PEP 8](https://peps.python.org/pep-0008/)).
   - Organização e padronização dos arquivos e métodos.
 - **Validação de aderência a padrões:**
   - **Branches:** Devem seguir a convenção definida.
@@ -131,8 +131,8 @@ G -- Não --> J[Fica na main_dev para novos ajustes]
 
 ### Aplicação dos Princípios
 
-- **SOLID:** Seguir princípios de responsabilidade única, baixo acoplamento e alta coesão.
-- **Clean Code:** Código limpo, sem repetições, fácil de entender e manter.
+- **PEP 8:** Seguir o guia de estilo para código Python, garantindo legibilidade e consistência. Isso inclui boas práticas como nomes de variáveis descritivos, indentação correta (4 espaços), separação entre funções e classes, uso adequado de quebras de linha, organização dos imports e padrões para nomes de funções, classes e constantes.
+- **Clean Code:** Manter o código limpo, legível e intuitivo. Evitar repetições, nomes confusos e códigos desnecessários.
 
 ---
 
@@ -147,4 +147,3 @@ G -- Não --> J[Fica na main_dev para novos ajustes]
 
 - **100% dos testes devem passar localmente antes de abrir PR.**
 - Não há verificação automática (CI/CD), portanto a **responsabilidade é do desenvolvedor**.
-- Sempre que possível, cobertura mínima sugerida: **>80%**.
